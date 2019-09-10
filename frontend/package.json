@@ -1,0 +1,123 @@
+{
+  "name": "laudite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "test": "vue-cli-service test:unit",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^2.0.0",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-preset-jsx": "^1.0.0",
+    "@vue/cli-plugin-pwa": "^3.6.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "dompurify": "^1.0.10",
+    "fuse.js": "^3.4.5",
+    "lodash": "^4.17.11",
+    "rtf.js": "^2.3.1",
+    "tinymce": "^5.0.2",
+    "tinymce-line-height-plugin": "^1.0.0",
+    "vee-validate": "^2.2.8",
+    "vue": "^2.5.21",
+    "vue-axios": "^2.1.4",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.0.7",
+    "vue-toasted": "^1.1.26",
+    "vue-tour": "^1.1.0",
+    "vuetify": "^1.5.16",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.1",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.11.0",
+    "prettier": "1.15.3",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-template-compiler": "^2.5.21",
+    "vuetify-loader": "^1.0.5",
+    "vuetify-scss": "^1.4.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/recommended",
+      "eslint:recommended",
+      "prettier/vue",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "no-plusplus": 0,
+      "no-console": 0,
+      "linebreak-style": 0,
+      "global-require": 0,
+      "vue/no-v-html": 0,
+      "vue/require-prop-types": 0,
+      "eslint linebreak-style": [
+        0,
+        "error",
+        "windows"
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto",
+          "htmlWhitespaceSensitivity": "ignore",
+          "semi": false,
+          "singleQuote": true
+        }
+      ],
+      "vue/html-self-closing": [
+        "error",
+        {
+          "html": {
+            "void": "any"
+          }
+        }
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "globals": {
+      "$router": "readonly",
+      "$toasted": "readonly",
+      "$$": "readonly",
+      "$": "readonly",
+      "jQuery": "readonly",
+      "tinymce": "readonly"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
