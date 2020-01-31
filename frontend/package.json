@@ -17,7 +17,7 @@
     "bootstrap": "^4.3.1",
     "dompurify": "^1.0.10",
     "fuse.js": "^3.4.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "rtf.js": "^2.3.1",
     "tinymce": "^5.1.4",
     "tinymce-line-height-plugin": "^1.0.0",
