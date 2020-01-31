@@ -13,7 +13,7 @@
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
     "@vue/babel-preset-jsx": "^1.0.0",
     "@vue/cli-plugin-pwa": "^3.6.0",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bootstrap": "^4.3.1",
     "dompurify": "^1.0.10",
     "fuse.js": "^3.4.5",
